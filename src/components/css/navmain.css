@@ -1,0 +1,30 @@
+.navmain{
+    display: flex;
+    width: 100vw;
+    height: 30px;  
+    background-color: rgb(63, 63, 63);
+    flex-direction: row;
+    color: white;
+}
+
+.text{
+margin: 0px 10px;
+}
+
+.amgs{
+    display: flex;
+    align-items: center;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+}
+
+.btn{
+    margin: 0px 10px;
+    font-size: 12px;
+    padding: 3px 6px;
+    background-color: rgb(73, 73, 73);
+    border-radius: 5px;
+}
