@@ -13,7 +13,6 @@
     display: flex;
     align-items: center;
     margin: 0px 10px;
-    background-color: rgb(75, 75, 75);
     border-radius: 10px;
     margin-top: 10px;
     padding: 0px 10px;
@@ -47,4 +46,26 @@
     background-color: black;
     border-radius: 100px;
     margin: 0px 10px 0px 15px;
+}
+
+.inputfr{
+    padding: 5px 10px;
+    background-color: rgb(60, 60, 60);
+    border: none;
+    border-radius: 5px;
+    margin: 10px 10px;
+}
+
+.line{
+    border: solid 1px rgb(60, 60, 60);
+}
+
+.spacep:hover{
+    background-color: rgb(81, 81, 81);
+    transition: 0.3s;
+}
+
+.spaceflex:hover{
+    background-color: rgb(81, 81, 81);
+    transition: 0.3s;
 }

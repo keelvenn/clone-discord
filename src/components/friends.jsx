@@ -6,6 +6,10 @@ const Friends = ({svg1, svg2, svg3 }) => {
     return (
         <div>
             <section className='friends'>
+                <input className='inputfr' type="text" placeholder='Procure um sexo' />
+                
+                <div className='line'></div>
+                
                 <div className='spacep'>
                     { svg1 } 
                     <p>Amigos</p>
