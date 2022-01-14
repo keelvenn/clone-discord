@@ -1,0 +1,32 @@
+.messages{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(109, 109, 109);
+    height: inherit;
+    width: 55vw;
+    color: white;
+}
+
+.persons{
+    display: flex;
+    flex-direction: column;
+}
+
+.person{
+    display: flex;
+    align-items: center;
+    padding: 12px 0px;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    border-color: gray;
+
+}
+
+.names{
+    display: flex;
+    flex-direction: column;
+}
+
+.text{
+    margin: 0;
+}

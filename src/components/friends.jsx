@@ -1,12 +1,11 @@
 import React from 'react';
 import './css/friends.css';
-import Footerfr from './footerfr';
+
 
 const Friends = ({svg1, svg2, svg3 }) => {
     return (
-        <div>
-            <section className='friends'>
-                <input className='inputfr' type="text" placeholder='Procure um sexo' />
+        <div className='friends'>
+           
                 
                 <div className='line'></div>
                 
@@ -25,7 +24,6 @@ const Friends = ({svg1, svg2, svg3 }) => {
                     {svg3}
                 </div>
 
-
                <div className='spaceflex'>
                    <div className='circ'>X</div>
                    <p>Nome</p>
@@ -42,9 +40,6 @@ const Friends = ({svg1, svg2, svg3 }) => {
                    <div className='circ'>X</div>
                    <p>Nome</p>
                </div>
-
-               <Footerfr/>
-            </section>
         </div>
     )
 }

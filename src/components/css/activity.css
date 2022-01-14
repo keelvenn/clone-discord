@@ -1,0 +1,35 @@
+.activity{
+    background-color: rgb(109, 109, 109);
+    color: white;
+    height: inherit;
+    width: 25vw;
+    height: 94vh;
+}
+
+.border{
+    border-left: solid 1px gray;
+    height: inherit;
+}
+
+.h1{
+    margin: 0;
+    padding: 10px 0 0 10px;
+}
+
+.photo2{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    width: 20vw;
+    border-radius: 10px;
+    margin: 15px 10px 0px 10px;
+}
+
+.person-activity{
+    display:flex;
+    padding: 5px;
+    margin: 10px;
+    align-items: center;
+}
+

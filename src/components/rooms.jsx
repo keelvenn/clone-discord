@@ -1,16 +1,15 @@
-import React from 'react';
 import './css/rooms.css';
 
-const Rooms = () => {
+const rooms = () => {
     return (
-        <div>
-            <header>
-                <div className='icon'>X</div>
-                <div className='icon'>X</div>
-                <div className='icon'>X</div>
-            </header>
+        <div className='rooms'>
+
+            <div className='photo'>😂</div>
+            <div className='photo'>😂</div>
+            <div className='photo'>😂</div>
+
         </div>
     )
 }
 
-export default Rooms;
+export default rooms
