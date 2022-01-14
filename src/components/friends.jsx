@@ -1,6 +1,6 @@
 import React from 'react';
 import './css/friends.css';
-
+import Footer from './footer';
 
 const Friends = ({svg1, svg2, svg3 }) => {
     return (
@@ -40,6 +40,8 @@ const Friends = ({svg1, svg2, svg3 }) => {
                    <div className='circ'>X</div>
                    <p>Nome</p>
                </div>
+
+               <Footer/>
         </div>
     )
 }
